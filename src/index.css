@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #F5C518;
+  text-align: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.App {
+  padding: 20px; /* Add padding to the main App container */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align children */
+}
+#results {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  justify-content: center; /* Center cards */
+  margin-top: 20px; /* Space above results */
+  padding: 20px; /* Padding around results */
+  max-width: 1200px; /* Limit max width */
+  width: 100%; /* Full width within max width */
+  overflow: visible; /* Ensure overflow is visible */
+}
+
+#results div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Margin between cards */
+  padding: 15px; /* Padding inside card */
+  text-align: center;
+  width: 250px; /* Fixed width for cards */
+  max-width: 100%; /* Prevent cards from exceeding the container */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+
+#results img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #F5C518;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e5b515;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-auth-button {
+  background: none;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-auth-button:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+  background-color: #d9534f;
+}
+button {
+  background-color: #F5C518;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #e5b515;
+}
+/* Assuming this is part of your existing styles.css file */
+#results {
+  display: grid; /* Change display to grid */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create a responsive grid */
+  gap: 20px; /* Space between grid items */
+  justify-content: center; /* Center the grid items */
+  margin-top: 20px;
+}
+
+#results div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+#results img {
+  width: 100%;
+  height: 350px; /* Ensure uniform height for images */
+  object-fit: cover;
+  border-radius: 5px;
+}

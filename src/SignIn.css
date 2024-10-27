@@ -1,0 +1,34 @@
+/* src/SignIn.css */
+.signin-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.signin-container h2 {
+    text-align: center;
+    color: #F5C518;
+}
+
+.signin-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.signin-container button {
+    width: 100%;
+    background-color: #F5C518;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.signin-container button:hover {
+    background-color: #e5b515;
+}
